@@ -1,0 +1,21 @@
+# ==========================================
+# Quizonics - FastAPI Backend Dependencies
+# Python 3.12
+# ==========================================
+
+# Web framework and API server
+fastapi
+uvicorn[standard]
+
+# Database and PostgreSQL driver
+sqlalchemy
+psycopg[binary]
+
+# Configuration management
+pydantic-settings
+
+# Request and response validation
+email-validator
+
+# Password hashing
+pwdlib[argon2]
